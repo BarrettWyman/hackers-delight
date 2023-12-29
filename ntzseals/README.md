@@ -16,7 +16,7 @@ using the C idiom `x & (-x)`.  In Leo, the `-x` is
 written as `0u32.sub_wrapped(x)`.
 
 A constant was discovered with the property that when it was multiplied by
-by 0, 1, 2, 4, ... 2**31, the 33 values all had different patterns of their
+by 0, 1, 2, 4, ... 2  31, the 33 values all had different patterns of their
 6 highest bits.  The constant was also chosen to make multiplication easy to do with
 a small number of shifts and adds on conventional hardware.
 
@@ -31,3 +31,4 @@ https://groups.google.com/g/comp.sys.acorn.tech/c/blRy-AiIQ-0/m/3JxNHeKN75IJ
 A further post that includes the table used was made by Michael Williams in the
 comp.arch.arithmetic newsgroup, December 4, 1998:
 https://groups.google.com/g/comp.arch.arithmetic/c/yBt-QHRVEGE/m/stFPPMD0b7AJ
+ 
